@@ -1,0 +1,66 @@
+/* xl */
+@media (max-width:1199px){
+    #home .contain h1 {
+        font-size: 47px;
+    }
+    #home .backround img{
+        width: 809px;
+        height: 480px;
+    }
+    #services .heading h1 {
+        font-size: 36px;
+    }
+    #inspire h3 a {
+        font-size: 19px;
+    }
+    footer img {
+        margin: 0;
+    }
+}
+/* lg */
+@media (max-width:991px){
+  header nav {
+  display: none;
+  }
+  #header .mobi-btn {
+    display: block;
+  }
+  #header .mobile-manu{
+    display: block;
+  }
+  #home .contain h1 {
+    font-size: 34px;
+}
+#home .backround img{
+    width: 628px;
+    height: 369px;
+}
+}
+/* md */
+@media (max-width:767px){
+      #home .backround img{
+       display: none
+    }
+    #home .contain h1 {
+        font-size: 51px;
+    }
+    #industries .pera p {
+        padding: 0;
+    }
+}
+/* sm */
+@media (max-width:575px){
+    #header .main {
+        flex-direction: column;
+        align-items: center;
+    }
+      #home .backround img{
+       display: none
+    }
+    #home .contain h1 {
+        font-size: 40px;
+    }
+    .heading h1 {
+      font-size: 30px;
+    }
+}

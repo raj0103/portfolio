@@ -1,0 +1,17 @@
+@media (max-width:767px) {
+    .banner h2 {
+        font-size: 3rem;
+        font-weight: 500;
+      }
+      .about-contain {
+        margin: 0;
+      }
+}
+
+@media (max-width:575px) {
+  .about-img::before {
+    right: 0px;
+    left: 0px;
+    margin: 0 auto;
+  }
+}

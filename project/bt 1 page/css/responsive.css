@@ -1,0 +1,44 @@
+/* md */
+@media (max-width: 991px) {
+  .banner .bg h2 {
+    font-size: 111px;
+    line-height: 88px;
+  }
+  .showcase .photo-2 {
+    order: -1;
+  }
+}
+/* sm */
+@media (max-width: 767px) {
+  .banner .bg h2 {
+    font-size: 46px;
+    line-height: 41px;
+  }
+  .heading h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .protect .protect-contain h2 {
+    font-size: 46px;
+    line-height: 60px;
+  }
+  .get-to-know-img::before {
+    padding: 45px 60px;
+    font-size: 35px;
+    right: 0;
+    bottom: 0;
+  }
+}
+/* xs */
+@media (max-width: 575px) {
+  .showcase .photo-grid .photo-2 {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+  .showcase .photo-grid .photo-4 {
+    grid-row: span 1;
+  }
+  .showcase .photo-grid .photo-7 {
+    grid-column: span 1;
+  }
+}

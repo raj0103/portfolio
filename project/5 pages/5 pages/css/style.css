@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.py {
+    padding: 100px 0;
+}
+
+/* topbar menu start  */
+.topbar {
+    background-color: black;
+
+}
+
+/* topbar end  */
+header {
+    z-index: 9;
+    width: 100%;
+}
+
+.blog-text h5 a{
+    text-decoration: none;
+    margin: 5px 0;
+}
+.info{
+    color: #ffa323;
+}
+.btn-btn-warning-2 {
+    padding: 15px 20px;
+}
+.form-info input{
+    display: block;
+    width: 100%;
+    /* height: calc(2.25rem + 2px); */
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    /* line-height: 1.5; */
+}
+
+/* banner start  */
+.banner,
+.banner1,
+.banner2 {
+    background-image: url(../images/bg_1.jpg.webp) , linear-gradient(#00000063 , #00000063);
+    background-blend-mode: darken;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner1 {
+    background-image: url(../images/bg_2.jpg.webp) , linear-gradient(#00000063 , #00000063);
+    background-blend-mode: darken;
+}
+
+.banner2 {
+    background-image: url(../images/bg_3.jpg.webp) , linear-gradient(#00000063 , #00000063);
+    background-blend-mode: darken;
+}
+.banner-banner1 {
+    height: 80vh;
+    background: url(../images/bg_3.jpg.webp) no-repeat center center,
+      linear-gradient(#0000008c, #0000008c);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+.carousel-indicators [data-bs-target] {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(251, 251, 251);
+}
+
+.banner-content h1 a {
+    text-decoration: none;
+    font-size: 5vw;
+    color: white;
+    width: 500px;
+    font-family: 'Monoton', cursive;
+
+}
+
+.banner-content h1 {
+    z-index: 9;
+}
+
+.btn.btn-warning{
+    background: #ffa323;
+    border: 2px solid #ffa323;
+    color: #fff;
+    z-index: 999;
+    padding: 15px 25px;
+    border: 1px solid #ffa323;
+}
+.btn.btn-warning:hover{
+    background-color: transparent;
+    border: 1px solid #ffa323;
+}
+.btn.btn-outline-warning {
+    padding: 15px 25px;
+    border: 2px solid #ffa323;
+   
+}
+.btn.btn-outline-warning:hover{
+    background-color:  #ffa323;;
+}
+
+.font h1 {
+    font-family: 'Great Vibes', cursive;
+}
+
+/* Appetizer Restaurant  */
+.restaurant p {
+    font-family: 'Great Vibes', cursive;
+    font-size: 90px;
+    color: orange;
+    font-weight: 100 !important;
+}
+
+.restaurant {
+    position: relative;
+
+}
+
+.restaurant h2 {
+    position: absolute;
+    top: 36%;
+    right: 32%;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 1.5rem !important;
+    line-height: 1.5;
+}
+
+.restaurant-content p {
+    padding: 0 120px;
+}
+
+/* <!-- counting section start  --> */
+.bg-img {
+    background-image: url('../images/bg_4.jpg.webp');
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.bg-icon {
+    position: absolute;
+    top: -17%;
+    left: 47%;
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.counting h2 {
+    font-weight: 500;
+    font-size: 50px !important;
+}
+
+.counting p {
+    font-size: 20px;
+    color: rgb(75, 74, 74);
+}
+
+
+/* service section strta  */
+.icon-box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+.icon-box i {
+    font-size: 80px;
+  
+}
+/* our meny stayrt  */
+.ourmenu {
+    position: relative;
+}
+
+.ourmenu-content {
+    position: relative;
+}
+
+.ourmenu-content h5 {
+    position: absolute;
+    top: -6px;
+    left: 80%;
+}
+
+.ourmenu-content h5::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 3%;
+    background-color: orange;
+    height: 2px;
+    width: 100%;
+}
+.ourmenu-box:hover.ourmenu-content h5::before{
+    background-color: #fff;
+}
+
+.ourmenu h2 {
+    position: absolute;
+    top: 33%;
+    right: 40%;
+    font-weight: 700;
+    font-size: 60px;
+
+}
+
+.ourmenu p {
+    font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+    color: orange;
+}
+
+.ourmenu-img img {
+    border-radius: 50%;
+    align-items: center;
+    margin: 5px;
+}
+
+.ourmenu-box {
+    border: 1px solid rgba(146, 143, 143, 0.591);
+    padding: 30px 5px;
+    border-radius: 10px;
+    transition: all 0.2s linear;
+}
+
+.ourmenu-box:hover {
+    background-color: orange;
+}
+
+.ourmenu-box:hover.h5 {
+    color: white;
+}
+
+/* form section start  */
+
+.make-Reservation{
+    position: relative;
+}
+.make-Reservation p{
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    color: #ffa323;
+}
+.make-Reservation h2{
+    position: absolute;
+    top: 16px;
+    left: 12%;
+    font-size: 50px;
+
+}
+
+
+form {
+    padding: 10px
+}
+
+input {
+    height: 50px;
+}
+
+label {
+    font-weight: 600;
+    color: #000000;
+    font-size: 20px;
+}
+
+.btn3 {
+    color: white;
+
+}
+
+.btn3:hover {
+    background-color: transparent;
+    color: #ffa323;
+}
+
+/* form section end  */
+
+/* happy coustmor start  */
+.light.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(228, 26, 26);
+}
+
+.Customer-contain-img {
+    position: relative;
+    /* z-index: 9999999; */
+}
+
+.Customer-contain-img::after {
+    content: '\f10d';
+    position: absolute;
+    font-family: fontawesome;
+    font-size: 20px;
+    color: white;
+    background-color: orange;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    bottom: 0;
+    right: 0;
+ 
+}
+.coustmer-bg{
+    background-image: url(../images/bg_5.jpg.webp) , linear-gradient( #d3d3d300 , #d3d3d300);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: lightgray;
+    background-blend-mode:overlay;
+    /* z-index:-1; */
+
+
+}
+
+.Customer-contain p {
+    color: gray;
+    font-size: 20px;
+    padding: 0 25px;
+    z-index: 99999;
+}
+
+/* gallery section start  */
+
+.gallery .gallery-images::before {
+    content: "\f16d";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: fontAwesome;
+    color: white;
+    font-size: 60px;
+    opacity: 0;
+    transition: all 0.3s linear;
+  }
+  .gallery .gallery-images:hover::before {
+    opacity: 1;
+  }
+
+footer {
+    background-color:black
+  }
+  footer .footer3 input::placeholder {
+    color: gray;
+  }
+  .icon-box1 a i{
+    align-items: center;
+    justify-content: center;
+    /* display: flex; */
+  }
+  .icon-box a{
+    text-decoration: none!important;
+  }
+.icon-box1 i{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.301);
+    text-align: center;
+    border-radius: 50%;
+}
+  .Subscribe{
+    background-color: #ffa323;
+  }

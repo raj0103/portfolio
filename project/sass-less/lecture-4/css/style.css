@@ -1,0 +1,402 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.text-center {
+  text-align: center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+p {
+  font-size: 14px;
+  color: #938e99;
+  line-height: 2;
+}
+
+.section-gap {
+  padding: 99px;
+}
+
+.w-2 {
+  width: 50%;
+}
+
+.w-3 {
+  width: 33.33%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.btn {
+  font-size: 14px;
+  font-weight: 700;
+  max-width: 185px;
+  padding: 23px 40px;
+  border-radius: 9px;
+  text-transform: uppercase;
+  background: #f7ffa0;
+  color: #493365;
+  letter-spacing: 2px;
+}
+
+.heading span {
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: block;
+  margin-top: 50px;
+}
+.heading h2 {
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding-top: 10px;
+}
+
+.heading-blue span,
+.heading-blue h2 {
+  color: #493365;
+}
+
+header {
+  color: #fff;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+}
+header nav ul li {
+  margin: 20px;
+}
+header nav ul li a {
+  color: #fff;
+}
+header nav ul li a:hover {
+  color: #f7ffa0;
+}
+header .icon i {
+  margin: 18px;
+}
+header select {
+  position: absolute;
+  top: 100%;
+  width: 68%;
+  padding: 15px;
+  background-color: gray;
+  display: none;
+  outline: none;
+  color: #fff;
+  font-size: 19px;
+}
+header select option {
+  display: flex;
+  color: #fff;
+  font-size: 19px;
+}
+
+.home {
+  width: 100%;
+  height: 120vh;
+  background: url(../images/baner.webp) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+.home .home-contain {
+  height: 100vh;
+}
+.home .home-contain h1 {
+  font-size: 70px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: #fff;
+}
+.home .home-contain h1 span {
+  color: #f7ffa0;
+  font-weight: 700;
+}
+.home .home-contain p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #fff;
+  line-height: 2;
+  width: 700px;
+}
+.home .img img {
+  position: absolute;
+  right: -135px;
+  bottom: 70px;
+}
+
+.services .service-contain {
+  padding: 10px;
+}
+.services .service-contain:hover .img {
+  background: linear-gradient(to right, #7364b0 0%, #ffb8e7 100%);
+}
+.services .service-contain:hover .img i {
+  color: #fff;
+}
+.services .service-contain .img {
+  width: 205px;
+  height: 205px;
+  background-color: #f7ffa0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 0 auto 45px;
+}
+.services .service-contain .img i {
+  font-size: 80px;
+  transition: all 0.5s linear;
+}
+.services .service-contain h2 {
+  font-weight: 600;
+  color: #493365;
+  padding-top: 15px;
+  margin-bottom: 35px;
+  letter-spacing: 2px;
+}
+
+.sessions {
+  width: 100%;
+  height: 135vh;
+  background-image: url(../images/meditation-bg.png.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.sessions .sessions-contain {
+  height: 130vh;
+}
+.sessions .sessions-contain p {
+  width: 600px;
+  color: #fff;
+  margin: 50px 0;
+}
+.sessions .img img {
+  position: absolute;
+  right: 0px;
+  bottom: 10px;
+  max-width: 1050px;
+}
+
+.working .working-hours {
+  background-color: #f7ffa0;
+  padding: 40px 50px;
+}
+.working .working-hours ul {
+  padding: 30px 0;
+}
+.working .working-hours ul li {
+  padding: 15px 0;
+  color: #493365;
+  font-size: 14px;
+}
+.working .working-right {
+  padding-left: 40px;
+}
+.working .working-right p {
+  padding: 40px 0;
+}
+.working .working-right .line {
+  width: 100%;
+  height: 4px;
+  background: #f5f8fb;
+  position: relative;
+  margin-bottom: 80px;
+}
+.working .working-right .line::after {
+  position: absolute;
+  content: "";
+  width: 60%;
+  height: 100%;
+  top: 0;
+  background: linear-gradient(to right, #7364b0 0%, #ffb8e7 100%);
+}
+.working .working-right .line p {
+  padding: 10px;
+}
+.working .working-right .line p span {
+  position: absolute;
+  left: 60%;
+}
+.working .working-right .line2::after {
+  width: 87%;
+}
+.working .working-right .line2 p span {
+  left: 87%;
+}
+.working .working-right .line3::after {
+  width: 70%;
+}
+.working .working-right .line3 p span {
+  left: 70%;
+}
+
+.testimonial {
+  background-image: url(../images/testimonial-bg.jpg.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.testimonial p {
+  color: #fff;
+  padding: 55px;
+}
+.testimonial h3 {
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.testimonial h5 {
+  color: #f7ffa0;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.advanced iframe {
+  height: 100vh;
+}
+.advanced .advanced-contain {
+  padding: 100px;
+}
+.advanced .advanced-contain p {
+  margin: 50px 0;
+}
+.advanced .advanced-contain h3 {
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  font-size: 16px;
+  color: #493365;
+}
+.advanced .advanced-contain ul li {
+  font-size: 14px;
+  color: #938e99;
+  margin-bottom: 10px;
+}
+
+.galery .img {
+  column-count: 5;
+  column-gap: 0;
+}
+
+footer {
+  padding: 24px 0;
+  background: linear-gradient(to right, #7364b0 0%, #ffb8e7 100%);
+}
+footer p {
+  color: #fff;
+}
+
+@media (max-width: 1399px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (max-width: 1199px) {
+  .container {
+    max-width: 960px;
+  }
+  .sessions .sessions-contain p {
+    width: 500px;
+  }
+}
+@media (max-width: 991px) {
+  .container {
+    max-width: 720px;
+  }
+  .w-md-2 {
+    width: 50%;
+  }
+  .w-md-1 {
+    width: 100%;
+  }
+  header {
+    color: #fff;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+  }
+  header nav {
+    display: none;
+  }
+  header select {
+    display: block;
+  }
+  .home .home-contain p {
+    width: 500px;
+  }
+  .home .img img {
+    display: none;
+  }
+  .sessions .img img {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
